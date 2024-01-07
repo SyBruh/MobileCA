@@ -37,6 +37,9 @@ public class GameActivity extends AppCompatActivity implements AdapterView.OnIte
         Intent intent = getIntent();
         ArrayList<String> selectedimgs = intent.getStringArrayListExtra("selectedimgs");
         duplicateAndShuffle(selectedimgs);
+        TextView txtgameprog = findViewById(R.id.txtgameprog);
+        String scoreTextSet = "Pairs: 0/6";
+        txtgameprog.setText(scoreTextSet);
         Timer = findViewById(R.id.Timer);
         StartTimer();
         GridView gamegrid = findViewById(R.id.gamegrid);

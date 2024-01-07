@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                     //Toast toast = Toast.makeText(getBaseContext(),"you have chosen 6 images",Toast.LENGTH_LONG);
                     //toast.show();s
                 }else {
-                    Toast toast = Toast.makeText(getBaseContext(),"You need to choose at least 6 images",Toast.LENGTH_LONG);
+                    Toast toast = Toast.makeText(getBaseContext(),"You need to choose 6 images",Toast.LENGTH_LONG);
                     toast.show();
                 }
             }
